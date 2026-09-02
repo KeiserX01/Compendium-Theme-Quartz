@@ -1,0 +1,23 @@
+{
+  "name": "compendium-theme",
+  "version": "0.1.0",
+  "description": "Compendium theme override for Quartz 5 — inyecta paleta y tipografía que sobreescriben @quartz-themes/core/its-theme/ttrpg-dnd vía CSS inline (siempre gana al cascade sobre los <link> del theme).",
+  "type": "module",
+  "license": "MIT",
+  "main": "./index.ts",
+  "private": true,
+  "scripts": {
+    "build": "tsc"
+  },
+  "quartz": {
+    "name": "compendium-theme",
+    "displayName": "Compendium Theme",
+    "category": "transformer",
+    "version": "0.1.0",
+    "quartzVersion": ">=5.0.0",
+    "dependencies": [],
+    "defaultOrder": 999,
+    "defaultEnabled": true,
+    "defaultOptions": {}
+  }
+}
